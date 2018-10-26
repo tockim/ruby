@@ -1,4 +1,4 @@
-FROM tockim/base:3.7.0
+FROM tockim/base:latest
 
 RUN apk update && apk upgrade \
     && apk add libxml2 libxslt libevent libffi glib ncurses readline \
